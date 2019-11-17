@@ -53,5 +53,5 @@ Route::middleware(['visitors'])->group(function () {
 
 
 Route::middleware(['authcheck'])->group(function () {
-    Route::get('/', function() {})->name('home');
+    Route::get('/ss', function() {})->name('home');
 });
